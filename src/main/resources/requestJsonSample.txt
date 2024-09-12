@@ -1,0 +1,33 @@
+once the server is started please navigate to http://localhost:8080/swagger-ui/index.html#/
+
+
+Employee endpoints:
+
+
+1. create employee --- http://localhost:8080/api/v1/employees
+{
+  "departmentId": 1,
+  "firstName": "sarah",
+  "lastName": "john",
+  "email": "sara@gmail.com",
+  "phone": "0771234567"
+}
+
+
+2. update employee --- http://localhost:8080/api/v1/employees/4
+{
+  "departmentId": 1,
+  "firstName": "sarah",
+  "lastName": "john",
+  "email": "sara@gmail.com",
+  "phone": "0771234567"
+}
+
+3. delete employee --- http://localhost:8080/api/v1/employees/3
+
+4. get employee by id --- 'http://localhost:8080/api/v1/employees/1
+
+5. get all employees by department  --- http://localhost:8080/api/v1/employees?pageNo=1&pageSize=2&departmentId=1
+
+
+
